@@ -1,0 +1,114 @@
+.footer {
+  background-color: #111;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin: 10px;
+}
+
+.footer-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-subtitle {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 15px;
+  justify-content: center; /* Center the icons */
+  margin-top: 10px;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #111;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: background 0.3s, color 0.3s;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.footer-heading {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  gap: 10px; /* Space between elements */
+  margin-top: 10px; /* Add spacing below the "CONSULTATION" heading */
+}
+
+.footer-input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+  width: 100%; /* Make the input field responsive */
+  max-width: 400px; /* Set a max width for better alignment */
+}
+
+.footer-button {
+  align-self: flex-start; /* Align the button to the left */
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.footer-button:hover {
+  background-color: #0056b3;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.footer-consultation-box {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.footer-consultation-box p {
+  font-size: 12px;
+  margin: 0;
+}

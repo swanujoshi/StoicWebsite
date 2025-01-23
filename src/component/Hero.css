@@ -1,0 +1,71 @@
+.hero-image {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.hero-image img {
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2; /* Ensures the text stays on top of the background */
+  padding: 20px;
+  color: rgb(20, 19, 19);
+  text-align: left;
+  align-items: flex-start;
+  margin-left: -300px;
+  opacity: 0; /* Initially hidden */
+  transform: translateY(20px); /* Initially moved slightly down */
+  transition: opacity 1s ease, transform 1s ease; /* Transition for smooth effect */
+}
+.hero-content.show {
+  opacity: 1; /* Fully visible */
+  transform: translateY(0); /* Moves to its original position */
+}
+
+.hero-content h1 {
+  display: inline-block;
+  background-color: white;
+  padding: 20px 40px;
+  font-size: 50px;
+  border-radius: 5px; /* Slight rounding for a modern look */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.hero-content span {
+  color: red;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  height: 100vh; /* Ensures it takes the full viewport height */
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../photo.jpg");
+  background-size: cover;
+  background-position: top center; /* Ensures the image is aligned to the top */
+  z-index: 1; /* Places the image behind the content */
+}
+
+.services-section {
+  margin-top: 40px; /* Adds space between button and Services */
+  align-self: flex-start; /* Aligns Services to the left as well */
+}

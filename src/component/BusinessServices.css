@@ -1,0 +1,68 @@
+.business-services {
+  text-align: center;
+  margin: 20px;
+}
+
+.business-services-title {
+  font-size: 3rem;
+  font-weight: normal;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.business-services-title span {
+  color: red;
+}
+
+.business-services-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.business-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+}
+
+.business-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  background-color: #fff7f7; /* Light red background for hover effect */
+}
+
+.business-card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #222;
+  transition: color 0.2s;
+}
+
+.business-card:hover .business-card-title {
+  color: red; /* Change title color to red on hover */
+}
+
+.business-card-description {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.business-card-link {
+  font-size: 0.9rem;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.business-card-link:hover {
+  text-decoration: underline;
+}

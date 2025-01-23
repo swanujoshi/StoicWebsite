@@ -1,0 +1,55 @@
+.about-sectionpage {
+  width: 100%;
+  padding: 60px 20px;
+  background-color: #fff; /* Light background color */
+  margin-top: -19px;
+  border-radius: 8px;
+  /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);*/
+}
+
+.about-sectionpage h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.about-sectionpage span {
+  color: #e63946; /* Highlighted red color */
+  font-weight: bold;
+}
+
+.about-content-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.about-column {
+  width: 48%; /* Adjust width for horizontal layout */
+  text-align: left;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-column:hover {
+  transform: translateY(-10px); /* Subtle hover effect */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.about-column h3 {
+  color: #e63946;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.about-column p {
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.6;
+}

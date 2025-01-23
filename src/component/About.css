@@ -1,0 +1,18 @@
+.about-contentpage {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: flex-start; /* Align children to the left */
+  justify-content: flex-start; /* Align children to the top */
+  gap: 20px; /* Add spacing between sections */
+  padding: 0px; /* Add some padding */
+}
+
+.about-imagepage {
+  width: 100%; /* Full width of the screen */
+  height: 550px; /* Maintain the height */
+  object-fit: cover; /* Ensure the image fills the height without distortion */
+  margin: 0; /* Remove margin for full-width effect */
+}
+.highlight {
+  color: #e63946; /* Optional: Highlight "Business Solutions" in red */
+}
